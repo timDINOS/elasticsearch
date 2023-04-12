@@ -509,3 +509,4 @@ public class CumulativeSumAggregatorTests extends AggregatorTestCase {
         testTermsHelper(ValueType.STRING, "_count", verify, setup, "keyword_field");
     }
 }
+

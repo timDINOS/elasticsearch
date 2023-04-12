@@ -133,3 +133,4 @@ public class CumulativeSumPipelineAggregator extends PipelineAggregator {
         createBucket(terms, mapAggregations, allBuckets);
     }
 }
+
