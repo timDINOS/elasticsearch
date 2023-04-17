@@ -57,3 +57,4 @@ public class RestOpenIndexAction extends BaseRestHandler {
         return channel -> client.admin().indices().open(openIndexRequest, new RestToXContentListener<>(channel));
     }
 }
+
